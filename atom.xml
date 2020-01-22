@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>烟雨枯</title>
+  
+  <subtitle>今日事，今日毕</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yanyuku.github.io/"/>
+  <updated>2020-01-22T03:44:14.486Z</updated>
+  <id>http://yanyuku.github.io/</id>
+  
+  <author>
+    <name>961497201@qq.com</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>各种常用的工具插件</title>
+    <link href="http://yanyuku.github.io/2020/01/22/tools/index/"/>
+    <id>http://yanyuku.github.io/2020/01/22/tools/index/</id>
+    <published>2020-01-22T01:36:36.789Z</published>
+    <updated>2020-01-22T03:44:14.486Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="javascript"><a class="markdownIt-Anchor" href="#javascript"></a> JavaScript</h2><table><thead><tr><th>名称</th><th>链接</th><th>介绍</th></tr></thead><tbody><tr><td>loadsh</td><td><a href="https://www.lodashjs.com/" target="_blank" rel="noopener">https://www.lodashjs.com/</a></td><td>是一个一致性、模块化、高性能的 JavaScript 实用工具库。</td></tr><tr><td>moment</td><td><a href="http://momentjs.cn/" target="_blank" rel="noopener">http://momentjs.cn/</a></td><td>JavaScript 日期处理类库</td></tr></tbody></table><h2 id="前端框架"><a class="markdownIt-Anchor" href="#前端框架"></a> 前端框架</h2><h3 id="vue-mobile-ui"><a class="markdownIt-Anchor" href="#vue-mobile-ui"></a> Vue Mobile UI</h3><table><thead><tr><th>名称</th><th>链接</th><th>介绍</th></tr></thead><tbody><tr><td>Muse UI</td><td><a href="https://muse-ui.org/#/zh-CN" target="_blank" rel="noopener">https://muse-ui.org/#/zh-CN</a></td><td>属性、参数较多，不简洁。样式风格为 Material Design。</td></tr><tr><td>Mand Mobile</td><td><a href="https://didi.github.io/mand-mobile/#/zh-CN/home" target="_blank" rel="noopener">https://didi.github.io/mand-mobile/#/zh-CN/home</a></td><td>是面向金融场景设计的移动端组件库。</td></tr><tr><td>Vant</td><td><a href="https://youzan.github.io/vant/#/zh-CN/intro" target="_blank" rel="noopener">https://youzan.github.io/vant/#/zh-CN/intro</a></td><td>样式较好，组件偏商城。但没有内置表单验证。</td></tr><tr><td>Vux</td><td><a href="https://vux.li" target="_blank" rel="noopener">https://vux.li</a></td><td>一个凑合的 Vue.js 移动端 UI 组件库。</td></tr><tr><td>Mint UI</td><td><a href="http://mint-ui.github.io" target="_blank" rel="noopener">http://mint-ui.github.io</a></td><td>基于 Vue.js 的移动端组件库。</td></tr></tbody></table><h3 id="vue-pc-ui"><a class="markdownIt-Anchor" href="#vue-pc-ui"></a> Vue PC UI</h3><table><thead><tr><th>名称</th><th>链接</th><th>介绍</th></tr></thead><tbody><tr><td>Element</td><td><a href="https://element.eleme.cn/2.0" target="_blank" rel="noopener">https://element.eleme.cn/2.0</a></td><td>Element，一套为开发者、设计师和产品经理准备的基于 Vue 2.0 的桌面端组件库。</td></tr><tr><td>iView</td><td><a href="https://www.iviewui.com" target="_blank" rel="noopener">https://www.iviewui.com</a></td><td>一套基于 Vue.js 的高质量 UI 组件库。</td></tr><tr><td>Quasar</td><td><a href="http://www.quasarchs.com" target="_blank" rel="noopener">http://www.quasarchs.com</a></td><td>基于 Vue 的 Quasar Framework 介绍 这个框架 UI 组件很全面。</td></tr><tr><td>Bootstrap Vue</td><td><a href="https://bootstrap-vue.js.org" target="_blank" rel="noopener">https://bootstrap-vue.js.org</a></td><td>Bootstrap Vue 版</td></tr><tr><td>Vue Material</td><td><a href="http://vuematerial.materializecss.cn" target="_blank" rel="noopener">http://vuematerial.materializecss.cn</a></td><td>Vue Material 是一个轻量级的框架， 建立在谷歌的  Material Design  基础上。</td></tr></tbody></table><h3 id="vue-tools"><a class="markdownIt-Anchor" href="#vue-tools"></a> Vue Tools</h3><table><thead><tr><th>名称</th><th>链接</th><th>介绍</th></tr></thead><tbody><tr><td>v-charts</td><td><a href="https://v-charts.js.org" target="_blank" rel="noopener">https://v-charts.js.org</a></td><td>基于 Vue2.0 和 echarts 封装的 v-charts 图表组件。</td></tr><tr><td>Vue Baidu Map</td><td><a href="https://dafrok.github.io/vue-baidu-map/#/zh/start/installation" target="_blank" rel="noopener">https://dafrok.github.io/vue-baidu-map/#/zh/start/installation</a></td><td>Baidu Map Vue</td></tr></tbody></table><h2 id="nodejs-工具"><a class="markdownIt-Anchor" href="#nodejs-工具"></a> NodeJS 工具</h2><h3 id="xmysql"><a class="markdownIt-Anchor" href="#xmysql"></a> xmysql</h3><blockquote><p>为任何 MySQL 生成 API。</p></blockquote><h4 id="安装"><a class="markdownIt-Anchor" href="#安装"></a> 安装</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install xmysql -g</span><br></pre></td></tr></table></figure><h4 id="使用"><a class="markdownIt-Anchor" href="#使用"></a> 使用</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">xmysql -h localhost -u mysqlUser -p mysqlPassword -d databaseName</span><br><span class="line">example:</span><br><span class="line">xmysql -h 127.0.0.1 -u root -p root -d users</span><br></pre></td></tr></table></figure><blockquote><p>最后打开 <code>http://localhost:3000</code></p></blockquote><h2 id="atom-插件"><a class="markdownIt-Anchor" href="#atom-插件"></a> Atom 插件</h2><p>插件</p><table><thead><tr><th>插件名</th><th>用途</th></tr></thead><tbody><tr><td>autocomplete-clang</td><td>代码补全</td></tr><tr><td>Atom-beautify</td><td>代码美化</td></tr><tr><td><a href="https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/" target="_blank" rel="noopener">markdown-preview-enhanced</a></td><td>滚动跟随+流程图</td></tr></tbody></table><h2 id="数据库设计工具"><a class="markdownIt-Anchor" href="#数据库设计工具"></a> 数据库设计工具</h2><ol><li>PowerDesigner</li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;javascript&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#javascript&quot;&gt;&lt;/a&gt; JavaScript&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;名称&lt;/th&gt;
+&lt;th&gt;链接&lt;/th&gt;
+&lt;th&gt;介绍
+      
+    
+    </summary>
+    
+    
+      <category term="工具插件" scheme="http://yanyuku.github.io/categories/%E5%B7%A5%E5%85%B7%E6%8F%92%E4%BB%B6/"/>
+    
+    
+      <category term="Atom" scheme="http://yanyuku.github.io/tags/Atom/"/>
+    
+      <category term="Database" scheme="http://yanyuku.github.io/tags/Database/"/>
+    
+      <category term="NodeJs" scheme="http://yanyuku.github.io/tags/NodeJs/"/>
+    
+      <category term="MySQL" scheme="http://yanyuku.github.io/tags/MySQL/"/>
+    
+      <category term="JavaScript" scheme="http://yanyuku.github.io/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Vue</title>
+    <link href="http://yanyuku.github.io/2019/12/19/language/fore-end/vue/index/"/>
+    <id>http://yanyuku.github.io/2019/12/19/language/fore-end/vue/index/</id>
+    <published>2019-12-19T03:05:11.000Z</published>
+    <updated>2020-01-22T01:36:36.777Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+      <category term="编程" scheme="http://yanyuku.github.io/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+      <category term="前端" scheme="http://yanyuku.github.io/categories/%E7%BC%96%E7%A8%8B/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="Vue" scheme="http://yanyuku.github.io/tags/Vue/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git 使用</title>
+    <link href="http://yanyuku.github.io/2019/09/21/tools/git/index/"/>
+    <id>http://yanyuku.github.io/2019/09/21/tools/git/index/</id>
+    <published>2019-09-21T06:22:34.000Z</published>
+    <updated>2020-01-22T01:36:36.788Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="git-使用文档"><a class="markdownIt-Anchor" href="#git-使用文档"></a> Git 使用文档</h1><h2 id="基本操作"><a class="markdownIt-Anchor" href="#基本操作"></a> 基本操作</h2><h3 id="下载安装"><a class="markdownIt-Anchor" href="#下载安装"></a> 下载安装</h3><blockquote><p><a href="https://git-scm.com/downloads" target="_blank" rel="noopener">https://git-scm.com/downloads</a></p></blockquote><h3 id="设置名字及邮箱"><a class="markdownIt-Anchor" href="#设置名字及邮箱"></a> 设置名字及邮箱</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name <span class="string">"Your Name"</span></span><br><span class="line">git config --global user.email <span class="string">"email@example.com"</span></span><br></pre></td></tr></table></figure><h3 id="在合适的位置创建一个你的版本库仓库repository"><a class="markdownIt-Anchor" href="#在合适的位置创建一个你的版本库仓库repository"></a> 在合适的位置创建一个你的版本库（仓库，Repository）</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mkdir [repository-name]</span><br><span class="line"><span class="built_in">cd</span> [repository-name]</span><br></pre></td></tr></table></figure><h3 id="初始化仓库"><a class="markdownIt-Anchor" href="#初始化仓库"></a> 初始化仓库</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br></pre></td></tr></table></figure><h3 id="添加文件到git仓库"><a class="markdownIt-Anchor" href="#添加文件到git仓库"></a> 添加文件到git仓库</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git add [filename]</span><br></pre></td></tr></table></figure><h3 id="提交改变"><a class="markdownIt-Anchor" href="#提交改变"></a> 提交改变</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git commit -m <span class="string">'更改信息'</span></span><br></pre></td></tr></table></figure><h3 id="查询文件状态是否有文件改变了"><a class="markdownIt-Anchor" href="#查询文件状态是否有文件改变了"></a> 查询文件状态（是否有文件改变了）</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git status</span><br></pre></td></tr></table></figure><h3 id="查询改变内容"><a class="markdownIt-Anchor" href="#查询改变内容"></a> 查询改变内容</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git diff</span><br></pre></td></tr></table></figure><h3 id="提交更改"><a class="markdownIt-Anchor" href="#提交更改"></a> 提交更改</h3><h4 id="添加更改文件"><a class="markdownIt-Anchor" href="#添加更改文件"></a> 添加更改文件</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git add [filename]</span><br></pre></td></tr></table></figure><h4 id="提交更改文件"><a class="markdownIt-Anchor" href="#提交更改文件"></a> 提交更改文件</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git commit -m <span class="string">'更改信息'</span></span><br></pre></td></tr></table></figure><h3 id="查询版本提交信息"><a class="markdownIt-Anchor" href="#查询版本提交信息"></a> 查询版本提交信息</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">log</span></span><br></pre></td></tr></table></figure><h3 id="版本回退"><a class="markdownIt-Anchor" href="#版本回退"></a> 版本回退</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">git reset --hard HEAD^</span><br><span class="line"></span><br><span class="line"><span class="comment"># ps：--hard HEAD^回退到上一个版本</span></span><br><span class="line"><span class="comment">#  --hard HEAD^^回退到上上一个版本</span></span><br><span class="line"><span class="comment">#  --hard HEAD~100回退到前100个版本</span></span><br><span class="line"><span class="comment">#  --hard 656c5b4b040394bfa037122f4b259547a2173589 根据版本id回退到指定版本，根据版本号可以回到回退之前的版本</span></span><br></pre></td></tr></table></figure><h3 id="查询所有版本id号"><a class="markdownIt-Anchor" href="#查询所有版本id号"></a> 查询所有版本id号</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git reflog</span><br></pre></td></tr></table></figure><h3 id="查询工作区与版本库里边文件的区别"><a class="markdownIt-Anchor" href="#查询工作区与版本库里边文件的区别"></a> 查询工作区与版本库里边文件的区别</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git diff HEAD -- [filename]</span><br></pre></td></tr></table></figure><h3 id="撤销更改"><a class="markdownIt-Anchor" href="#撤销更改"></a> 撤销更改</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git checkout -- [filename]</span><br><span class="line">git reset HEAD [filename]</span><br></pre></td></tr></table></figure><h3 id="删除文件"><a class="markdownIt-Anchor" href="#删除文件"></a> 删除文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">rm [filename]        <span class="comment"># 从磁盘删除文件</span></span><br><span class="line">git rm [filename]      <span class="comment"># 从git中删除文件</span></span><br><span class="line">git commit -m <span class="string">'更改信息'</span>   <span class="comment"># 提交删除</span></span><br></pre></td></tr></table></figure><h2 id="远程仓库"><a class="markdownIt-Anchor" href="#远程仓库"></a> 远程仓库</h2><h3 id="创建ssh-key"><a class="markdownIt-Anchor" href="#创建ssh-key"></a> 创建SSH Key</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">"youremail@example.com"</span> <span class="comment"># 一路回车</span></span><br><span class="line">id_rsa  <span class="comment"># 私钥：不能泄露</span></span><br><span class="line">id_rsa.pub<span class="comment"># 公钥：随便</span></span><br></pre></td></tr></table></figure><blockquote><p>添加 <code>id_rsa.pub</code> 到 <code>github</code> 设置中</p></blockquote><h3 id="添加id_rsapub公钥到你需要保存的网站"><a class="markdownIt-Anchor" href="#添加id_rsapub公钥到你需要保存的网站"></a> 添加id_rsa.pub（公钥）到你需要保存的网站</h3><h3 id="链接远程仓库"><a class="markdownIt-Anchor" href="#链接远程仓库"></a> 链接远程仓库</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote add origin git@github.com:michaelliao/learngit.git</span><br></pre></td></tr></table></figure><h3 id="推送本地库到远程库"><a class="markdownIt-Anchor" href="#推送本地库到远程库"></a> 推送本地库到远程库</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure><h3 id="以后只要本地提交后就可以通过命令提交到远程库"><a class="markdownIt-Anchor" href="#以后只要本地提交后就可以通过命令提交到远程库"></a> 以后只要本地提交后，就可以通过命令提交到远程库</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push origin master</span><br></pre></td></tr></table></figure><h3 id="克隆"><a class="markdownIt-Anchor" href="#克隆"></a> 克隆</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> git@github.com:michaelliao/gitskills.git</span><br></pre></td></tr></table></figure><h2 id="分支"><a class="markdownIt-Anchor" href="#分支"></a> 分支</h2><h3 id="分支基础"><a class="markdownIt-Anchor" href="#分支基础"></a> 分支基础</h3><blockquote><p>主分支名默认为 master</p></blockquote><h4 id="创建分支并切换分支"><a class="markdownIt-Anchor" href="#创建分支并切换分支"></a> 创建分支并切换分支</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git branch [branch-name]</span><br><span class="line">git checkout [branch-name]</span><br></pre></td></tr></table></figure><h4 id="创建并切换分支快速"><a class="markdownIt-Anchor" href="#创建并切换分支快速"></a> 创建并切换分支（快速）</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git checkout -b [branch-name]</span><br></pre></td></tr></table></figure><blockquote><p>上一条命令相当于以下两条命令</p></blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git branch [branch-name]<span class="comment">#创建分支</span></span><br><span class="line">git checkout [branch-name]<span class="comment">#切换分支</span></span><br></pre></td></tr></table></figure><h4 id="查看所有分支"><a class="markdownIt-Anchor" href="#查看所有分支"></a> 查看所有分支</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch</span><br></pre></td></tr></table></figure><h4 id="切换分支"><a class="markdownIt-Anchor" href="#切换分支"></a> 切换分支</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git checkout [branch-name]</span><br></pre></td></tr></table></figure><h4 id="合并分支"><a class="markdownIt-Anchor" href="#合并分支"></a> 合并分支</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git merge [branch-name]<span class="comment"># 合并指定分支到当前分支</span></span><br></pre></td></tr></table></figure><h4 id="删除分支"><a class="markdownIt-Anchor" href="#删除分支"></a> 删除分支</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch -d [branch-name]</span><br></pre></td></tr></table></figure><h3 id="分支重命名"><a class="markdownIt-Anchor" href="#分支重命名"></a> 分支重命名</h3><h4 id="本地分支重命名还没有推送到远程"><a class="markdownIt-Anchor" href="#本地分支重命名还没有推送到远程"></a> 本地分支重命名(还没有推送到远程)</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch -m oldName newName</span><br></pre></td></tr></table></figure><h4 id="远程分支重命名-已经推送远程-假设本地分支和远程对应分支名称相同"><a class="markdownIt-Anchor" href="#远程分支重命名-已经推送远程-假设本地分支和远程对应分支名称相同"></a> 远程分支重命名 (已经推送远程-假设本地分支和远程对应分支名称相同)</h4><blockquote><p>a、 重命名远程分支对应的本地分支</p></blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch -m oldName newName</span><br></pre></td></tr></table></figure><h4 id="删除远程分支"><a class="markdownIt-Anchor" href="#删除远程分支"></a> 删除远程分支</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push --delete origin oldName</span><br></pre></td></tr></table></figure><h4 id="上传新命名的本地分支"><a class="markdownIt-Anchor" href="#上传新命名的本地分支"></a> 上传新命名的本地分支</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push origin newName</span><br></pre></td></tr></table></figure><h4 id="把修改后的本地分支与远程分支关联"><a class="markdownIt-Anchor" href="#把修改后的本地分支与远程分支关联"></a> 把修改后的本地分支与远程分支关联</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch --<span class="built_in">set</span>-upstream-to origin/newName</span><br></pre></td></tr></table></figure><h3 id="分支命名规则"><a class="markdownIt-Anchor" href="#分支命名规则"></a> 分支命名规则</h3><h4 id="master"><a class="markdownIt-Anchor" href="#master"></a> master</h4><blockquote><p>（主分支，永远是可用的、稳定的、可直接发布的版本，不能直接在该分支上开发）</p></blockquote><h4 id="develop"><a class="markdownIt-Anchor" href="#develop"></a> develop</h4><blockquote><p>（开发主分支，代码永远是最新，所有新功能以这个分支来创建自己的开发分支，该分支只做只合并操作，不能直接在该分支上开发）</p></blockquote><h4 id="feature-xxx"><a class="markdownIt-Anchor" href="#feature-xxx"></a> feature-xxx</h4><blockquote><p>（功能开发分支，在develop上创建分支，以自己开发功能模块命名，功能测试正常后合并到develop分支）</p></blockquote><h4 id="release"><a class="markdownIt-Anchor" href="#release"></a> release</h4><blockquote><p>（预分布分支，在合并好feature分支的develop分支上创建，主要是用来测试bug的分支，修改好bug并确定稳定之后合并到develop和master分支，然后发布master分支）</p></blockquote><h4 id="release-fix"><a class="markdownIt-Anchor" href="#release-fix"></a> release-fix</h4><blockquote><p>（功能bug修复分支，在release上创建分支修复，修复好测试出来的bug之后合并回release分支）</p></blockquote><h4 id="hotfix-xxx"><a class="markdownIt-Anchor" href="#hotfix-xxx"></a> hotfix-xxx</h4><blockquote><p>（紧急bug修改分支，项目上线之后可以会遇到一些环境问题需要紧急修复，在master分支上创建，流程跟release分支相似，修复完成后合并到develop和master分支）</p></blockquote><h2 id="附图两张"><a class="markdownIt-Anchor" href="#附图两张"></a> 附图两张</h2><p><img alt="基础" data-src="/img/tools/git/base.jpg" class="lozad"><br><img alt="分支" data-src="/img/tools/git/branch.jpg" class="lozad"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;git-使用文档&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#git-使用文档&quot;&gt;&lt;/a&gt; Git 使用文档&lt;/h1&gt;
+&lt;h2 id=&quot;基本操作&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#基本操作&quot;&gt;&lt;
+      
+    
+    </summary>
+    
+    
+      <category term="工具" scheme="http://yanyuku.github.io/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="Git" scheme="http://yanyuku.github.io/tags/Git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>各个数据库分页代码</title>
+    <link href="http://yanyuku.github.io/2019/09/21/language/database/paging/"/>
+    <id>http://yanyuku.github.io/2019/09/21/language/database/paging/</id>
+    <published>2019-09-21T06:11:44.000Z</published>
+    <updated>2020-01-22T01:36:36.776Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="oracle数据库分页"><a class="markdownIt-Anchor" href="#oracle数据库分页"></a> oracle数据库分页</h2><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> (<span class="keyword">select</span> a.*,<span class="keyword">rownum</span> rc <span class="keyword">from</span> 表名 <span class="keyword">where</span> <span class="keyword">rownum</span>&lt;=endrow) a <span class="keyword">where</span> a.rc&gt;=startrow</span><br></pre></td></tr></table></figure><h2 id="db2数据库分页"><a class="markdownIt-Anchor" href="#db2数据库分页"></a> DB2数据库分页</h2><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">Select</span> * <span class="keyword">from</span> (<span class="keyword">select</span> rownumber() <span class="keyword">over</span>() <span class="keyword">as</span> rc,a.* <span class="keyword">from</span> (<span class="keyword">select</span> * <span class="keyword">from</span> 表名 <span class="keyword">order</span> <span class="keyword">by</span> 列名) <span class="keyword">as</span> a) <span class="keyword">where</span> rc <span class="keyword">between</span> startrow <span class="keyword">and</span> endrow</span><br></pre></td></tr></table></figure><h2 id="sql-server-2000数据库分页"><a class="markdownIt-Anchor" href="#sql-server-2000数据库分页"></a> SQL Server 2000数据库分页</h2><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">Select</span> top pagesize * <span class="keyword">from</span> 表名 <span class="keyword">where</span> 列名 <span class="keyword">not</span>  <span class="keyword">in</span>(<span class="keyword">select</span> top pagesize*page 列名 <span class="keyword">from</span>  表名 <span class="keyword">order</span> <span class="keyword">by</span> 列名) <span class="keyword">order</span> <span class="keyword">by</span> 列名</span><br></pre></td></tr></table></figure><h2 id="sql-server-2005数据库分页"><a class="markdownIt-Anchor" href="#sql-server-2005数据库分页"></a> SQL Server 2005数据库分页</h2><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">Select</span> * <span class="keyword">from</span> (<span class="keyword">select</span> 列名,row_搜索<span class="built_in">number</span>() <span class="keyword">over</span>(<span class="keyword">order</span> <span class="keyword">by</span>  列名<span class="number">1</span>) <span class="keyword">as</span> 别名<span class="keyword">from</span> 表名) <span class="keyword">as</span> t <span class="keyword">where</span> t.列名<span class="number">1</span>&gt;=startrow <span class="keyword">and</span> t.列名<span class="number">1</span>&lt;=endrow</span><br></pre></td></tr></table></figure><h2 id="mysql数据库分页"><a class="markdownIt-Anchor" href="#mysql数据库分页"></a> MySQL数据库分页</h2><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">Select</span> * <span class="keyword">from</span> 表名 <span class="keyword">limit</span> startrow,pagesize(Pagesize为每页显示的记录条数)</span><br></pre></td></tr></table></figure><h2 id="postgresql数据库分页"><a class="markdownIt-Anchor" href="#postgresql数据库分页"></a> PostgreSQL数据库分页</h2><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">Select</span> * <span class="keyword">from</span> 表名 <span class="keyword">limit</span> pagesize,<span class="keyword">offset</span> startrow(Pagesize为每页显示的记录条数.)</span><br></pre></td></tr></table></figure><h2 id="通用模式"><a class="markdownIt-Anchor" href="#通用模式"></a> 通用模式</h2><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> ( <span class="keyword">select</span> * <span class="keyword">from</span> tb_student <span class="keyword">where</span> <span class="keyword">sid</span> <span class="keyword">not</span> <span class="keyword">in</span>(<span class="keyword">select</span> <span class="keyword">sid</span> <span class="keyword">from</span> tb_student <span class="keyword">where</span> <span class="keyword">rownum</span>&lt;=(currentPage<span class="number">-1</span>)*pageSize)) <span class="keyword">where</span> <span class="keyword">rownum</span> &lt;=pageSize;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;oracle数据库分页&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#oracle数据库分页&quot;&gt;&lt;/a&gt; oracle数据库分页&lt;/h2&gt;
+&lt;figure class=&quot;highlight sql&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td cla
+      
+    
+    </summary>
+    
+    
+      <category term="编程" scheme="http://yanyuku.github.io/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+      <category term="数据库" scheme="http://yanyuku.github.io/categories/%E7%BC%96%E7%A8%8B/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    
+      <category term="Database" scheme="http://yanyuku.github.io/tags/Database/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Markdown 基础语法</title>
+    <link href="http://yanyuku.github.io/2019/09/11/markdown/index/"/>
+    <id>http://yanyuku.github.io/2019/09/11/markdown/index/</id>
+    <published>2019-09-11T06:59:43.000Z</published>
+    <updated>2020-01-22T01:36:36.784Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="标题"><a class="markdownIt-Anchor" href="#标题"></a> 标题</h2><table><thead><tr><th>代码</th><th>用途</th></tr></thead><tbody><tr><td><code>标题&lt;br&gt;===</code></td><td>一级标题</td></tr><tr><td><code>标题&lt;br&gt;---</code></td><td>二级标题</td></tr><tr><td><code># 标题</code></td><td>一级标题</td></tr><tr><td><code>## 标题</code></td><td>二级标题</td></tr><tr><td><code>### 标题</code></td><td>三级标题</td></tr><tr><td><code>#### 标题</code></td><td>四级标题</td></tr><tr><td><code>##### 标题</code></td><td>五级标题</td></tr><tr><td><code>###### 标题</code></td><td>六级标题</td></tr></tbody></table><h2 id="字体"><a class="markdownIt-Anchor" href="#字体"></a> 字体</h2><table><thead><tr><th>代码</th><th>用途</th></tr></thead><tbody><tr><td><code>*文本*</code></td><td>斜体</td></tr><tr><td><code>_文本_</code></td><td>斜体</td></tr><tr><td><code>**文本**</code></td><td>加粗</td></tr><tr><td><code>__文本__</code></td><td>加粗</td></tr><tr><td><code>***文本***</code></td><td>斜体加粗</td></tr><tr><td><code>___文本___</code></td><td>斜体加粗</td></tr></tbody></table><h2 id="分割线"><a class="markdownIt-Anchor" href="#分割线"></a> 分割线</h2><blockquote><p>你可以在一行中用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他东西。你也可以在星号或是减号中间插入空格。</p></blockquote><figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">1. </span><span class="emphasis">***</span></span><br><span class="line"><span class="bullet">2. </span><span class="bullet">* *</span> *</span><br><span class="line"><span class="bullet">3. </span><span class="strong">*****</span></span><br><span class="line"><span class="bullet">4. </span>- - -</span><br><span class="line"><span class="bullet">5. </span>----------</span><br></pre></td></tr></table></figure><h2 id="删除线"><a class="markdownIt-Anchor" href="#删除线"></a> 删除线</h2><blockquote><p>果段落上的文字要添加删除线，只需要在文字的两端加上两个波浪线 <code>~~</code> 即可</p></blockquote><figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">~~BAIDU.COM~~</span><br></pre></td></tr></table></figure><h2 id="下划线"><a class="markdownIt-Anchor" href="#下划线"></a> 下划线</h2><blockquote><p>下划线可以通过 HTML 的 <code>&lt;u&gt;</code> 标签来实现：</p></blockquote><figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">u</span>&gt;</span></span>下划线<span class="xml"><span class="tag">&lt;/<span class="name">u</span>&gt;</span></span></span><br></pre></td></tr></table></figure><h2 id="列表"><a class="markdownIt-Anchor" href="#列表"></a> 列表</h2><blockquote><p>有序列表已数字开口，如(<code>1</code>)。<br>无序列表使用星号(<code>*</code>)、加号(<code>+</code>)或是减号(<code>-</code>)作为列表标记。</p></blockquote><h2 id="区块"><a class="markdownIt-Anchor" href="#区块"></a> 区块</h2><figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&gt;</span><br><span class="line">&gt;&gt;</span><br><span class="line">&gt;&gt;&gt;</span><br><span class="line">&gt;&gt;&gt;&gt;</span><br></pre></td></tr></table></figure><h2 id="代码"><a class="markdownIt-Anchor" href="#代码"></a> 代码</h2><blockquote><p>段内用(<code>`</code>)包裹起来<br>区块代码用(` <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&gt; 指定代码语言(` ```java `)，如</span><br><span class="line"></span><br><span class="line">```md</span><br><span class="line">  ` ` `javascript</span><br><span class="line">  $(document).ready(function () &#123;</span><br><span class="line">      alert(&apos;RUNOOB&apos;);</span><br><span class="line">  &#125;);</span><br><span class="line">  ` ` `</span><br></pre></td></tr></table></figure></p></blockquote><h2 id="链接"><a class="markdownIt-Anchor" href="#链接"></a> 链接</h2><figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">[<span class="string">标题</span>](<span class="link">URL</span>)</span><br><span class="line">或者</span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">URL</span>&gt;</span></span></span><br><span class="line"></span><br><span class="line">如：</span><br><span class="line"></span><br><span class="line">[<span class="string">Baidu</span>](<span class="link">http://www.baidu.com</span>)</span><br><span class="line">或者</span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">http:</span>//<span class="attr">www.baidu.com</span>&gt;</span></span></span><br></pre></td></tr></table></figure><blockquote><p>高级链接</p></blockquote><figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">链接也可以用变量来代替，文档末尾附带变量地址：</span><br><span class="line">这个链接用 1 作为网址变量 [<span class="string">Google</span>][<span class="symbol">1</span>]</span><br><span class="line">这个链接用 runoob 作为网址变量 [<span class="string">Runoob</span>][<span class="symbol">runoob</span>]</span><br><span class="line">然后在文档的结尾为变量赋值（网址）</span><br><span class="line"></span><br><span class="line">[<span class="symbol">1</span>]: <span class="link">http://www.google.com/</span></span><br><span class="line">[<span class="symbol">runoob</span>]: <span class="link">http://www.runoob.com/</span></span><br></pre></td></tr></table></figure><h2 id="图片"><a class="markdownIt-Anchor" href="#图片"></a> 图片</h2><figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">![<span class="string">alt 属性文本</span>](<span class="link">图片地址</span>)</span><br><span class="line"></span><br><span class="line">![<span class="string">alt 属性文本</span>](<span class="link">图片地址 "可选标题"</span>)</span><br></pre></td></tr></table></figure><figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">![<span class="string">RUNOOB 图标</span>](<span class="link">http://static.runoob.com/images/runoob-logo.png</span>)</span><br><span class="line"></span><br><span class="line">![<span class="string">RUNOOB 图标</span>](<span class="link">http://static.runoob.com/images/runoob-logo.png "RUNOOB"</span>)</span><br></pre></td></tr></table></figure><h2 id="表格"><a class="markdownIt-Anchor" href="#表格"></a> 表格</h2><figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">| 表头   | 表头   |</span><br><span class="line">| ------ | ------ |</span><br><span class="line">| 单元格 | 单元格 |</span><br><span class="line">| 单元格 | 单元格 |</span><br></pre></td></tr></table></figure><ul><li><code>-:</code> 设置内容和标题栏居右对齐。</li><li><code>:-</code> 设置内容和标题栏居左对齐。</li><li><code>:-:</code> 设置内容和标题栏居中对齐。</li></ul><figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">| 左对齐 | 右对齐 | 居中对齐 |</span><br><span class="line">| :----- | -----: | :------: |</span><br><span class="line">| 单元格 | 单元格 |  单元格  |</span><br><span class="line">| 单元格 | 单元格 |  单元格  |</span><br></pre></td></tr></table></figure><h2 id="支持-html-元素"><a class="markdownIt-Anchor" href="#支持-html-元素"></a> 支持 HTML 元素</h2><figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">不在 Markdown 涵盖范围之内的标签，都可以直接在文档里面用 HTML 撰写。</span><br><span class="line">目前支持的 HTML 元素有：<span class="xml"><span class="tag">&lt;<span class="name">kbd</span>&gt;</span></span> <span class="xml"><span class="tag">&lt;<span class="name">b</span>&gt;</span></span> <span class="xml"><span class="tag">&lt;<span class="name">i</span>&gt;</span></span> <span class="xml"><span class="tag">&lt;<span class="name">em</span>&gt;</span></span> <span class="xml"><span class="tag">&lt;<span class="name">sup</span>&gt;</span></span> <span class="xml"><span class="tag">&lt;<span class="name">sub</span>&gt;</span></span> <span class="xml"><span class="tag">&lt;<span class="name">br</span>&gt;</span></span>等 ，如：</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;标题&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#标题&quot;&gt;&lt;/a&gt; 标题&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;代码&lt;/th&gt;
+&lt;th&gt;用途&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;t
+      
+    
+    </summary>
+    
+    
+      <category term="编程" scheme="http://yanyuku.github.io/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    
+      <category term="Markdown" scheme="http://yanyuku.github.io/tags/Markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>NodeJS 工具</title>
+    <link href="http://yanyuku.github.io/2019/09/11/language/code-behind/nodejs/tools/"/>
+    <id>http://yanyuku.github.io/2019/09/11/language/code-behind/nodejs/tools/</id>
+    <published>2019-09-10T16:00:00.000Z</published>
+    <updated>2020-01-22T01:36:36.774Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><a href="https://www.npmjs.com/package/sequelize-auto" target="_blank" rel="noopener">sequelize 根据表生成model</a></li></ol><hr>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.npmjs.com/package/sequelize-auto&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;sequelize 根据表生成model&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Batch（.bat 批处理）</title>
+    <link href="http://yanyuku.github.io/2019/09/11/language/script/batch/first/"/>
+    <id>http://yanyuku.github.io/2019/09/11/language/script/batch/first/</id>
+    <published>2019-09-10T16:00:00.000Z</published>
+    <updated>2020-01-22T01:36:36.782Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="第一个-batch-程序"><a class="markdownIt-Anchor" href="#第一个-batch-程序"></a> 第一个 Batch 程序</h2><blockquote><p>代码</p></blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line">REM 注释</span><br><span class="line">:: 注释简写</span><br><span class="line"><span class="built_in">echo</span> Hello World!</span><br><span class="line">pause</span><br><span class="line"><span class="built_in">exit</span></span><br></pre></td></tr></table></figure><blockquote><p>命令介绍</p></blockquote><table><thead><tr><th>命令</th><th>作用</th></tr></thead><tbody><tr><td><code>echo on/off</code></td><td>用于开启/关闭是否在屏幕上显示命令</td></tr><tr><td><code>@</code></td><td>用于禁止当前执行的命令显示在屏幕上（不受<code>echo on</code>控制）</td></tr><tr><td><code>echo</code></td><td>打印之后的字符串到屏幕上<br>如：<code>echo Hello World!</code> 将打印 <code>Hello World!</code>到屏幕上</td></tr><tr><td><code>REM</code></td><td>注释</td></tr><tr><td><code>::</code></td><td>注释</td></tr><tr><td><code>pause</code></td><td>暂停命令并在屏幕上显示一行<code>请按任意键继续 . . .</code></td></tr><tr><td><code>exit</code></td><td>退出整个程序</td></tr><tr><td><code>exit /b 0</code></td><td>退出当前程序</td></tr></tbody></table>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;第一个-batch-程序&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#第一个-batch-程序&quot;&gt;&lt;/a&gt; 第一个 Batch 程序&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;代码&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;figure 
+      
+    
+    </summary>
+    
+    
+      <category term="编程" scheme="http://yanyuku.github.io/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    
+      <category term="Batch" scheme="http://yanyuku.github.io/tags/Batch/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Android 无线调试</title>
+    <link href="http://yanyuku.github.io/2019/09/11/language/mobile/android/wifi_adb/"/>
+    <id>http://yanyuku.github.io/2019/09/11/language/mobile/android/wifi_adb/</id>
+    <published>2019-09-10T16:00:00.000Z</published>
+    <updated>2020-01-22T01:36:36.779Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="语法"><a class="markdownIt-Anchor" href="#语法"></a> 语法</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">adb connect [ip]:[port]</span><br></pre></td></tr></table></figure><h3 id="example"><a class="markdownIt-Anchor" href="#example"></a> example</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">adb connect 192.168.0.101:5555</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;语法&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#语法&quot;&gt;&lt;/a&gt; 语法&lt;/h3&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span cla
+      
+    
+    </summary>
+    
+    
+      <category term="编程" scheme="http://yanyuku.github.io/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    
+      <category term="Android" scheme="http://yanyuku.github.io/tags/Android/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yanyuku.github.io/1970/01/01/hello-world/"/>
+    <id>http://yanyuku.github.io/1970/01/01/hello-world/</id>
+    <published>1969-12-31T16:00:00.000Z</published>
+    <updated>2020-01-22T01:36:36.771Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="quick-start"><a class="markdownIt-Anchor" href="#quick-start"></a> Quick Start</h2><h3 id="create-a-new-post"><a class="markdownIt-Anchor" href="#create-a-new-post"></a> Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="run-server"><a class="markdownIt-Anchor" href="#run-server"></a> Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="generate-static-files"><a class="markdownIt-Anchor" href="#generate-static-files"></a> Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="deploy-to-remote-sites"><a class="markdownIt-Anchor" href="#deploy-to-remote-sites"></a> Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>

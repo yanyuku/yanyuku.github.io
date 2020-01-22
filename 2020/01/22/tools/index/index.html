@@ -1,0 +1,198 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta name="generator" content="Hexo 3.9.0"><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><title>各种常用的工具插件 | 烟雨枯</title><meta name="description" content="各种常用的工具插件"><meta name="keywords" content="Atom,Database,NodeJs,MySQL,JavaScript"><meta name="author" content="961497201@qq.com"><meta name="copyright" content="961497201@qq.com"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/img/favicon.ico"><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><meta http-equiv="x-dns-prefetch-control" content="on"><link rel="canonical" href="http://yanyuku.github.io/2020/01/22/tools/index/"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="各种常用的工具插件"><meta name="twitter:description" content="各种常用的工具插件"><meta name="twitter:image" content="http://yanyuku.github.io/img/cover/tools.jpg"><meta property="og:type" content="article"><meta property="og:title" content="各种常用的工具插件"><meta property="og:url" content="http://yanyuku.github.io/2020/01/22/tools/index/"><meta property="og:site_name" content="烟雨枯"><meta property="og:description" content="各种常用的工具插件"><meta property="og:image" content="http://yanyuku.github.io/img/cover/tools.jpg"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="next" title="Vue" href="http://yanyuku.github.io/2019/12/19/language/fore-end/vue/index/"><link rel="dns-prefetch" href="https://unpkg.com"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/gitment/style/default.min.css"><script src="https://cdn.jsdelivr.net/npm/gitment/dist/gitment.browser.min.js"></script><script src="https://cdn.jsdelivr.net/npm/blueimp-md5@2.10.0/js/md5.min.js"></script><link rel="stylesheet" href="https://billts.site/extra_css/gitment.css"><link rel="stylesheet" href="/css/gitment.css"><script src="https://billts.site/js/gitment.js"></script><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"cookieDomain":"https://yanyuku.github.io/","msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"简"},
+  highlight_copy: 'true',
+  highlight_lang: 'true',
+  highlight_shrink: 'false',
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  bookmark: {
+    title: '添加书签',
+    message_prev: '按',
+    message_next: '键将本页加入书签'
+  },
+  runtime_unit: '天'
+
+  
+}</script></head><body><canvas class="fireworks"></canvas><i class="fa fa-arrow-right" id="toggle-sidebar" aria-hidden="true"></i><div class="auto_open" id="sidebar"><div class="sidebar-toc"><div class="sidebar-toc__title">目录</div><div class="sidebar-toc__progress"><span class="progress-notice">你已经读了</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar">     </div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#javascript"><span class="toc-number">1.</span> <span class="toc-text"> JavaScript</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#前端框架"><span class="toc-number">2.</span> <span class="toc-text"> 前端框架</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#vue-mobile-ui"><span class="toc-number">2.1.</span> <span class="toc-text"> Vue Mobile UI</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#vue-pc-ui"><span class="toc-number">2.2.</span> <span class="toc-text"> Vue PC UI</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#vue-tools"><span class="toc-number">2.3.</span> <span class="toc-text"> Vue Tools</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#nodejs-工具"><span class="toc-number">3.</span> <span class="toc-text"> NodeJS 工具</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#xmysql"><span class="toc-number">3.1.</span> <span class="toc-text"> xmysql</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#安装"><span class="toc-number">3.1.1.</span> <span class="toc-text"> 安装</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#使用"><span class="toc-number">3.1.2.</span> <span class="toc-text"> 使用</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#atom-插件"><span class="toc-number">4.</span> <span class="toc-text"> Atom 插件</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#数据库设计工具"><span class="toc-number">5.</span> <span class="toc-text"> 数据库设计工具</span></a></li></ol></div></div></div><div id="content-outer"><div id="top-container" style="background-image: url(/img/cover/tools.jpg)"><div id="page-header"><span class="pull-left"> <a class="blog_title" id="site-name" href="/">烟雨枯</a></span><div class="open toggle-menu pull-right"><div class="menu-icon-first"></div><div class="menu-icon-second"></div><div class="menu-icon-third"></div></div><div class="menu_mask"></div><span class="pull-right menus"><div class="mobile_author_icon"><img class="lozad avatar_img" src="/img/avatar.png" onerror="onerror=null;src='/img/friend_404.gif'"></div><div class="mobile_post_data"><div class="mobile_data_item text-center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">文章</div><div class="length_num">9</div></a></div></div><div class="mobile_data_item text-center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">标签</div><div class="length_num">10</div></a></div></div><div class="mobile_data_item text-center">     <div class="mobile_data_link"><a href="/categories/"><div class="headline">分类</div><div class="length_num">5</div></a></div></div></div><hr><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 链接</span></a></div><div class="menus_item"><a class="site-page" href="/gallery/"><i class="fa-fw fa fa-photo"></i><span> 相册</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa fa-heart"></i><span> 关于</span></a></div><script>document.body.addEventListener('touchstart', function(){ });</script></div></span><span class="pull-right"></span></div><div id="post-info"><div id="post-title"><div class="posttitle">各种常用的工具插件</div></div><div id="post-meta"><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 发表于 2020-01-22<span class="post-meta__separator">|</span><i class="fa fa-history" aria-hidden="true"></i> 更新于 2020-01-22</time><span class="post-meta__separator mobile_hidden">|</span><span class="mobile_hidden"><i class="fa fa-inbox post-meta__icon" aria-hidden="true"></i><a class="post-meta__categories" href="/categories/工具插件/">工具插件</a></span><div class="post-meta-wordcount"><span>字数总计: </span><span class="word-count">428</span><span class="post-meta__separator">|</span><span>阅读时长: 1 分钟</span><span class="post-meta__separator">|</span><span>阅读量: </span><span id="busuanzi_value_page_pv"></span></div></div></div></div><div class="layout layout_post" id="content-inner">   <article id="post"><div class="article-container" id="post-content"><h2 id="javascript"><a class="markdownIt-Anchor" href="#javascript"></a> JavaScript</h2>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>链接</th>
+<th>介绍</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>loadsh</td>
+<td><a href="https://www.lodashjs.com/" target="_blank" rel="noopener">https://www.lodashjs.com/</a></td>
+<td>是一个一致性、模块化、高性能的 JavaScript 实用工具库。</td>
+</tr>
+<tr>
+<td>moment</td>
+<td><a href="http://momentjs.cn/" target="_blank" rel="noopener">http://momentjs.cn/</a></td>
+<td>JavaScript 日期处理类库</td>
+</tr>
+</tbody>
+</table>
+<h2 id="前端框架"><a class="markdownIt-Anchor" href="#前端框架"></a> 前端框架</h2>
+<h3 id="vue-mobile-ui"><a class="markdownIt-Anchor" href="#vue-mobile-ui"></a> Vue Mobile UI</h3>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>链接</th>
+<th>介绍</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Muse UI</td>
+<td><a href="https://muse-ui.org/#/zh-CN" target="_blank" rel="noopener">https://muse-ui.org/#/zh-CN</a></td>
+<td>属性、参数较多，不简洁。样式风格为 Material Design。</td>
+</tr>
+<tr>
+<td>Mand Mobile</td>
+<td><a href="https://didi.github.io/mand-mobile/#/zh-CN/home" target="_blank" rel="noopener">https://didi.github.io/mand-mobile/#/zh-CN/home</a></td>
+<td>是面向金融场景设计的移动端组件库。</td>
+</tr>
+<tr>
+<td>Vant</td>
+<td><a href="https://youzan.github.io/vant/#/zh-CN/intro" target="_blank" rel="noopener">https://youzan.github.io/vant/#/zh-CN/intro</a></td>
+<td>样式较好，组件偏商城。但没有内置表单验证。</td>
+</tr>
+<tr>
+<td>Vux</td>
+<td><a href="https://vux.li" target="_blank" rel="noopener">https://vux.li</a></td>
+<td>一个凑合的 Vue.js 移动端 UI 组件库。</td>
+</tr>
+<tr>
+<td>Mint UI</td>
+<td><a href="http://mint-ui.github.io" target="_blank" rel="noopener">http://mint-ui.github.io</a></td>
+<td>基于 Vue.js 的移动端组件库。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="vue-pc-ui"><a class="markdownIt-Anchor" href="#vue-pc-ui"></a> Vue PC UI</h3>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>链接</th>
+<th>介绍</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Element</td>
+<td><a href="https://element.eleme.cn/2.0" target="_blank" rel="noopener">https://element.eleme.cn/2.0</a></td>
+<td>Element，一套为开发者、设计师和产品经理准备的基于 Vue 2.0 的桌面端组件库。</td>
+</tr>
+<tr>
+<td>iView</td>
+<td><a href="https://www.iviewui.com" target="_blank" rel="noopener">https://www.iviewui.com</a></td>
+<td>一套基于 Vue.js 的高质量 UI 组件库。</td>
+</tr>
+<tr>
+<td>Quasar</td>
+<td><a href="http://www.quasarchs.com" target="_blank" rel="noopener">http://www.quasarchs.com</a></td>
+<td>基于 Vue 的 Quasar Framework 介绍 这个框架 UI 组件很全面。</td>
+</tr>
+<tr>
+<td>Bootstrap Vue</td>
+<td><a href="https://bootstrap-vue.js.org" target="_blank" rel="noopener">https://bootstrap-vue.js.org</a></td>
+<td>Bootstrap Vue 版</td>
+</tr>
+<tr>
+<td>Vue Material</td>
+<td><a href="http://vuematerial.materializecss.cn" target="_blank" rel="noopener">http://vuematerial.materializecss.cn</a></td>
+<td>Vue Material 是一个轻量级的框架， 建立在谷歌的  Material Design  基础上。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="vue-tools"><a class="markdownIt-Anchor" href="#vue-tools"></a> Vue Tools</h3>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>链接</th>
+<th>介绍</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>v-charts</td>
+<td><a href="https://v-charts.js.org" target="_blank" rel="noopener">https://v-charts.js.org</a></td>
+<td>基于 Vue2.0 和 echarts 封装的 v-charts 图表组件。</td>
+</tr>
+<tr>
+<td>Vue Baidu Map</td>
+<td><a href="https://dafrok.github.io/vue-baidu-map/#/zh/start/installation" target="_blank" rel="noopener">https://dafrok.github.io/vue-baidu-map/#/zh/start/installation</a></td>
+<td>Baidu Map Vue</td>
+</tr>
+</tbody>
+</table>
+<h2 id="nodejs-工具"><a class="markdownIt-Anchor" href="#nodejs-工具"></a> NodeJS 工具</h2>
+<h3 id="xmysql"><a class="markdownIt-Anchor" href="#xmysql"></a> xmysql</h3>
+<blockquote>
+<p>为任何 MySQL 生成 API。</p>
+</blockquote>
+<h4 id="安装"><a class="markdownIt-Anchor" href="#安装"></a> 安装</h4>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install xmysql -g</span><br></pre></td></tr></table></figure>
+<h4 id="使用"><a class="markdownIt-Anchor" href="#使用"></a> 使用</h4>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">xmysql -h localhost -u mysqlUser -p mysqlPassword -d databaseName</span><br><span class="line">example:</span><br><span class="line">xmysql -h 127.0.0.1 -u root -p root -d users</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>最后打开 <code>http://localhost:3000</code></p>
+</blockquote>
+<h2 id="atom-插件"><a class="markdownIt-Anchor" href="#atom-插件"></a> Atom 插件</h2>
+<p>插件</p>
+<table>
+<thead>
+<tr>
+<th>插件名</th>
+<th>用途</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>autocomplete-clang</td>
+<td>代码补全</td>
+</tr>
+<tr>
+<td>Atom-beautify</td>
+<td>代码美化</td>
+</tr>
+<tr>
+<td><a href="https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/" target="_blank" rel="noopener">markdown-preview-enhanced</a></td>
+<td>滚动跟随+流程图</td>
+</tr>
+</tbody>
+</table>
+<h2 id="数据库设计工具"><a class="markdownIt-Anchor" href="#数据库设计工具"></a> 数据库设计工具</h2>
+<ol>
+<li>PowerDesigner</li>
+</ol>
+</div></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">961497201@qq.com</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://yanyuku.github.io/2020/01/22/tools/index/">http://yanyuku.github.io/2020/01/22/tools/index/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://yanyuku.github.io">烟雨枯</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/Atom/">Atom    </a><a class="post-meta__tags" href="/tags/Database/">Database    </a><a class="post-meta__tags" href="/tags/NodeJs/">NodeJs    </a><a class="post-meta__tags" href="/tags/MySQL/">MySQL    </a><a class="post-meta__tags" href="/tags/JavaScript/">JavaScript    </a></div><div class="post_share"><div class="social-share" data-image="/img/cover/tools.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js@1.0.16/dist/css/share.min.css"><script src="https://cdn.jsdelivr.net/npm/social-share.js@1.0.16/dist/js/social-share.min.js"></script></div></div><div class="post-reward"><a class="reward-buttom"><i class="fa fa-qrcode"></i> 打赏<div class="reward-main"><ul class="reward-all"><li class="reward-item"><img class="lozad post-qr-code__img" src="/img/wechat.png"><div class="post-qr-code__desc">微信</div></li><li class="reward-item"><img class="lozad post-qr-code__img" src="/img/alipay.png"><div class="post-qr-code__desc">支付宝</div></li></ul></div></a></div><nav class="pagination_post" id="pagination"><div class="next-post pull-full"><a href="/2019/12/19/language/fore-end/vue/index/"><img class="next_cover lozad" data-src="/img/default_bg.png" onerror="onerror=null;src='/img/404.jpg'"><div class="label">下一篇</div><div class="next_info"><span>Vue</span></div></a></div></nav><div class="relatedPosts"><div class="relatedPosts_headline"><i class="fa fa-fw fa-thumbs-up" aria-hidden="true"></i><span> 相关推荐</span></div><div class="relatedPosts_list"><div class="relatedPosts_item"><a href="/2019/09/21/language/database/paging/" title="各个数据库分页代码"><img class="relatedPosts_cover lozad" data-src="/img/cover/paging.jpg"><div class="relatedPosts_title">各个数据库分页代码</div></a></div></div><div class="clear_both"></div></div><hr><div id="post-comment"><div class="comment_headling"><i class="fa fa-comments fa-fw" aria-hidden="true"></i><span> 评论</span></div><div id="gitment-container"></div><script>var gitment = new Gitment({
+  id: md5(decodeURI(location.pathname)),
+  owner: 'yanyuku',
+  repo: 'yanyuku.github.io',
+  oauth: {
+    client_id: 'a52e1534967ca8a63a49',
+    client_secret: 'faea699864cddc3cf635891edb3e34014170c970'
+  }
+})
+gitment.render('gitment-container')</script></div></div></div><footer><div id="footer"><div class="copyright">&copy;2018 - 2020 By 961497201@qq.com</div><div class="framework-info"><span>驱动 </span><a href="http://hexo.io"><span>Hexo</span></a><span class="footer-separator">|</span><span>主题 </span><a href="https://github.com/jerryc127/hexo-theme-butterfly"><span>Butterfly</span></a></div></div></footer><i class="fa fa-arrow-up" id="go-up" aria-hidden="true"></i><section class="rightside" id="rightside"><a id="to_comment" href="#post-comment"><i class="scroll_to_comment fa fa-comments"></i></a><i class="fa fa-book" id="readmode" title="阅读模式"> </i><i class="fa fa-plus" id="font_plus" title="放大字体"></i><i class="fa fa-minus" id="font_minus" title="缩小字体"></i><a class="translate_chn_to_cht" id="translateLink" href="javascript:translatePage();" title="简繁转换">繁</a><i class="nightshift fa fa-moon-o" id="nightshift" title="夜间模式"></i></section><div class=" " id="post_bottom"><div id="post_bottom_items"><a id="mobile_to_comment" href="#post-comment"><i class="mobile_scroll_to_comment fa fa-comments"></i></a><i class="fa fa-list" id="mobile_toc"></i><div id="toc_mobile"><div class="toc_mobile_headline">目录</div><ol class="toc_mobile_items"><li class="toc_mobile_items-item toc_mobile_items-level-2"><a class="toc_mobile_items-link" href="#javascript"><span class="toc_mobile_items-number">1.</span> <span class="toc_mobile_items-text"> JavaScript</span></a></li><li class="toc_mobile_items-item toc_mobile_items-level-2"><a class="toc_mobile_items-link" href="#前端框架"><span class="toc_mobile_items-number">2.</span> <span class="toc_mobile_items-text"> 前端框架</span></a><ol class="toc_mobile_items-child"><li class="toc_mobile_items-item toc_mobile_items-level-3"><a class="toc_mobile_items-link" href="#vue-mobile-ui"><span class="toc_mobile_items-number">2.1.</span> <span class="toc_mobile_items-text"> Vue Mobile UI</span></a></li><li class="toc_mobile_items-item toc_mobile_items-level-3"><a class="toc_mobile_items-link" href="#vue-pc-ui"><span class="toc_mobile_items-number">2.2.</span> <span class="toc_mobile_items-text"> Vue PC UI</span></a></li><li class="toc_mobile_items-item toc_mobile_items-level-3"><a class="toc_mobile_items-link" href="#vue-tools"><span class="toc_mobile_items-number">2.3.</span> <span class="toc_mobile_items-text"> Vue Tools</span></a></li></ol></li><li class="toc_mobile_items-item toc_mobile_items-level-2"><a class="toc_mobile_items-link" href="#nodejs-工具"><span class="toc_mobile_items-number">3.</span> <span class="toc_mobile_items-text"> NodeJS 工具</span></a><ol class="toc_mobile_items-child"><li class="toc_mobile_items-item toc_mobile_items-level-3"><a class="toc_mobile_items-link" href="#xmysql"><span class="toc_mobile_items-number">3.1.</span> <span class="toc_mobile_items-text"> xmysql</span></a><ol class="toc_mobile_items-child"><li class="toc_mobile_items-item toc_mobile_items-level-4"><a class="toc_mobile_items-link" href="#安装"><span class="toc_mobile_items-number">3.1.1.</span> <span class="toc_mobile_items-text"> 安装</span></a></li><li class="toc_mobile_items-item toc_mobile_items-level-4"><a class="toc_mobile_items-link" href="#使用"><span class="toc_mobile_items-number">3.1.2.</span> <span class="toc_mobile_items-text"> 使用</span></a></li></ol></li></ol></li><li class="toc_mobile_items-item toc_mobile_items-level-2"><a class="toc_mobile_items-link" href="#atom-插件"><span class="toc_mobile_items-number">4.</span> <span class="toc_mobile_items-text"> Atom 插件</span></a></li><li class="toc_mobile_items-item toc_mobile_items-level-2"><a class="toc_mobile_items-link" href="#数据库设计工具"><span class="toc_mobile_items-number">5.</span> <span class="toc_mobile_items-text"> 数据库设计工具</span></a></li></ol></div></div></div><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"><script src="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.js"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.css"><script>$(function () {
+  $('span.katex-display').wrap('<div class="katex-wrap"></div>')
+})</script><script src="https://cdn.jsdelivr.net/npm/animejs@latest/anime.min.js"></script><script src="/js/third-party/fireworks.js"></script><script src="/js/nightshift.js"></script><script id="ribbon" src="https://cdn.jsdelivr.net/gh/jerryc127/CDN@latest/js/piao.js"></script><script color="0,0,255" opacity="0.7" zindex="-1" count="99" src="https://cdn.jsdelivr.net/gh/jerryc127/CDN/js/canvas-nest.js"></script><script src="/js/activate-power-mode.js"></script><script>POWERMODE.colorful = true; // make power mode colorful
+POWERMODE.shake = true; // turn off shake
+document.body.addEventListener('input', POWERMODE);
+</script><script src="/js/tw_cn.js"></script><script>translateInitilization()
+
+</script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page@1.2.2/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script><script>const observer = lozad(); // lazy loads elements with default selector as '.lozad'
+observer.observe();</script></body></html>
