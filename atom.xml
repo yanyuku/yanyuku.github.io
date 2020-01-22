@@ -57,27 +57,6 @@
   </entry>
   
   <entry>
-    <title>Vue</title>
-    <link href="http://yanyuku.github.io/2019/12/19/language/fore-end/vue/index/"/>
-    <id>http://yanyuku.github.io/2019/12/19/language/fore-end/vue/index/</id>
-    <published>2019-12-19T03:05:11.000Z</published>
-    <updated>2020-01-22T01:36:36.777Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-      <category term="编程" scheme="http://yanyuku.github.io/categories/%E7%BC%96%E7%A8%8B/"/>
-    
-      <category term="前端" scheme="http://yanyuku.github.io/categories/%E7%BC%96%E7%A8%8B/%E5%89%8D%E7%AB%AF/"/>
-    
-    
-      <category term="Vue" scheme="http://yanyuku.github.io/tags/Vue/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Git 使用</title>
     <link href="http://yanyuku.github.io/2019/09/21/tools/git/index/"/>
     <id>http://yanyuku.github.io/2019/09/21/tools/git/index/</id>
@@ -196,6 +175,33 @@
   </entry>
   
   <entry>
+    <title>Android 无线调试</title>
+    <link href="http://yanyuku.github.io/2019/09/11/language/mobile/android/wifi_adb/"/>
+    <id>http://yanyuku.github.io/2019/09/11/language/mobile/android/wifi_adb/</id>
+    <published>2019-09-10T16:00:00.000Z</published>
+    <updated>2020-01-22T01:36:36.779Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="语法"><a class="markdownIt-Anchor" href="#语法"></a> 语法</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">adb connect [ip]:[port]</span><br></pre></td></tr></table></figure><h3 id="example"><a class="markdownIt-Anchor" href="#example"></a> example</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">adb connect 192.168.0.101:5555</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;语法&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#语法&quot;&gt;&lt;/a&gt; 语法&lt;/h3&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span cla
+      
+    
+    </summary>
+    
+    
+      <category term="编程" scheme="http://yanyuku.github.io/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    
+      <category term="Android" scheme="http://yanyuku.github.io/tags/Android/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Batch（.bat 批处理）</title>
     <link href="http://yanyuku.github.io/2019/09/11/language/script/batch/first/"/>
     <id>http://yanyuku.github.io/2019/09/11/language/script/batch/first/</id>
@@ -222,33 +228,6 @@
     
     
       <category term="Batch" scheme="http://yanyuku.github.io/tags/Batch/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Android 无线调试</title>
-    <link href="http://yanyuku.github.io/2019/09/11/language/mobile/android/wifi_adb/"/>
-    <id>http://yanyuku.github.io/2019/09/11/language/mobile/android/wifi_adb/</id>
-    <published>2019-09-10T16:00:00.000Z</published>
-    <updated>2020-01-22T01:36:36.779Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="语法"><a class="markdownIt-Anchor" href="#语法"></a> 语法</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">adb connect [ip]:[port]</span><br></pre></td></tr></table></figure><h3 id="example"><a class="markdownIt-Anchor" href="#example"></a> example</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">adb connect 192.168.0.101:5555</span><br></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h3 id=&quot;语法&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#语法&quot;&gt;&lt;/a&gt; 语法&lt;/h3&gt;
-&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span cla
-      
-    
-    </summary>
-    
-    
-      <category term="编程" scheme="http://yanyuku.github.io/categories/%E7%BC%96%E7%A8%8B/"/>
-    
-    
-      <category term="Android" scheme="http://yanyuku.github.io/tags/Android/"/>
     
   </entry>
   
