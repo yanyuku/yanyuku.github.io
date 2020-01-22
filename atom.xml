@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yanyuku.github.io/"/>
-  <updated>2020-01-22T03:44:14.486Z</updated>
+  <updated>2020-01-22T05:08:02.450Z</updated>
   <id>http://yanyuku.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://yanyuku.github.io/2020/01/22/tools/index/"/>
     <id>http://yanyuku.github.io/2020/01/22/tools/index/</id>
     <published>2020-01-22T01:36:36.789Z</published>
-    <updated>2020-01-22T03:44:14.486Z</updated>
+    <updated>2020-01-22T05:08:02.450Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="javascript"><a class="markdownIt-Anchor" href="#javascript"></a> JavaScript</h2><table><thead><tr><th>名称</th><th>链接</th><th>介绍</th></tr></thead><tbody><tr><td>loadsh</td><td><a href="https://www.lodashjs.com/" target="_blank" rel="noopener">https://www.lodashjs.com/</a></td><td>是一个一致性、模块化、高性能的 JavaScript 实用工具库。</td></tr><tr><td>moment</td><td><a href="http://momentjs.cn/" target="_blank" rel="noopener">http://momentjs.cn/</a></td><td>JavaScript 日期处理类库</td></tr></tbody></table><h2 id="前端框架"><a class="markdownIt-Anchor" href="#前端框架"></a> 前端框架</h2><h3 id="vue-mobile-ui"><a class="markdownIt-Anchor" href="#vue-mobile-ui"></a> Vue Mobile UI</h3><table><thead><tr><th>名称</th><th>链接</th><th>介绍</th></tr></thead><tbody><tr><td>Muse UI</td><td><a href="https://muse-ui.org/#/zh-CN" target="_blank" rel="noopener">https://muse-ui.org/#/zh-CN</a></td><td>属性、参数较多，不简洁。样式风格为 Material Design。</td></tr><tr><td>Mand Mobile</td><td><a href="https://didi.github.io/mand-mobile/#/zh-CN/home" target="_blank" rel="noopener">https://didi.github.io/mand-mobile/#/zh-CN/home</a></td><td>是面向金融场景设计的移动端组件库。</td></tr><tr><td>Vant</td><td><a href="https://youzan.github.io/vant/#/zh-CN/intro" target="_blank" rel="noopener">https://youzan.github.io/vant/#/zh-CN/intro</a></td><td>样式较好，组件偏商城。但没有内置表单验证。</td></tr><tr><td>Vux</td><td><a href="https://vux.li" target="_blank" rel="noopener">https://vux.li</a></td><td>一个凑合的 Vue.js 移动端 UI 组件库。</td></tr><tr><td>Mint UI</td><td><a href="http://mint-ui.github.io" target="_blank" rel="noopener">http://mint-ui.github.io</a></td><td>基于 Vue.js 的移动端组件库。</td></tr></tbody></table><h3 id="vue-pc-ui"><a class="markdownIt-Anchor" href="#vue-pc-ui"></a> Vue PC UI</h3><table><thead><tr><th>名称</th><th>链接</th><th>介绍</th></tr></thead><tbody><tr><td>Element</td><td><a href="https://element.eleme.cn/2.0" target="_blank" rel="noopener">https://element.eleme.cn/2.0</a></td><td>Element，一套为开发者、设计师和产品经理准备的基于 Vue 2.0 的桌面端组件库。</td></tr><tr><td>iView</td><td><a href="https://www.iviewui.com" target="_blank" rel="noopener">https://www.iviewui.com</a></td><td>一套基于 Vue.js 的高质量 UI 组件库。</td></tr><tr><td>Quasar</td><td><a href="http://www.quasarchs.com" target="_blank" rel="noopener">http://www.quasarchs.com</a></td><td>基于 Vue 的 Quasar Framework 介绍 这个框架 UI 组件很全面。</td></tr><tr><td>Bootstrap Vue</td><td><a href="https://bootstrap-vue.js.org" target="_blank" rel="noopener">https://bootstrap-vue.js.org</a></td><td>Bootstrap Vue 版</td></tr><tr><td>Vue Material</td><td><a href="http://vuematerial.materializecss.cn" target="_blank" rel="noopener">http://vuematerial.materializecss.cn</a></td><td>Vue Material 是一个轻量级的框架， 建立在谷歌的  Material Design  基础上。</td></tr></tbody></table><h3 id="vue-tools"><a class="markdownIt-Anchor" href="#vue-tools"></a> Vue Tools</h3><table><thead><tr><th>名称</th><th>链接</th><th>介绍</th></tr></thead><tbody><tr><td>v-charts</td><td><a href="https://v-charts.js.org" target="_blank" rel="noopener">https://v-charts.js.org</a></td><td>基于 Vue2.0 和 echarts 封装的 v-charts 图表组件。</td></tr><tr><td>Vue Baidu Map</td><td><a href="https://dafrok.github.io/vue-baidu-map/#/zh/start/installation" target="_blank" rel="noopener">https://dafrok.github.io/vue-baidu-map/#/zh/start/installation</a></td><td>Baidu Map Vue</td></tr></tbody></table><h2 id="nodejs-工具"><a class="markdownIt-Anchor" href="#nodejs-工具"></a> NodeJS 工具</h2><h3 id="xmysql"><a class="markdownIt-Anchor" href="#xmysql"></a> xmysql</h3><blockquote><p>为任何 MySQL 生成 API。</p></blockquote><h4 id="安装"><a class="markdownIt-Anchor" href="#安装"></a> 安装</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install xmysql -g</span><br></pre></td></tr></table></figure><h4 id="使用"><a class="markdownIt-Anchor" href="#使用"></a> 使用</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">xmysql -h localhost -u mysqlUser -p mysqlPassword -d databaseName</span><br><span class="line">example:</span><br><span class="line">xmysql -h 127.0.0.1 -u root -p root -d users</span><br></pre></td></tr></table></figure><blockquote><p>最后打开 <code>http://localhost:3000</code></p></blockquote><h2 id="atom-插件"><a class="markdownIt-Anchor" href="#atom-插件"></a> Atom 插件</h2><p>插件</p><table><thead><tr><th>插件名</th><th>用途</th></tr></thead><tbody><tr><td>autocomplete-clang</td><td>代码补全</td></tr><tr><td>Atom-beautify</td><td>代码美化</td></tr><tr><td><a href="https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/" target="_blank" rel="noopener">markdown-preview-enhanced</a></td><td>滚动跟随+流程图</td></tr></tbody></table><h2 id="数据库设计工具"><a class="markdownIt-Anchor" href="#数据库设计工具"></a> 数据库设计工具</h2><ol><li>PowerDesigner</li></ol>]]></content>
+    <content type="html"><![CDATA[<h2 id="javascript"><a class="markdownIt-Anchor" href="#javascript"></a> JavaScript</h2><table><thead><tr><th>名称</th><th>链接</th><th>介绍</th></tr></thead><tbody><tr><td>loadsh</td><td><a href="https://www.lodashjs.com/" target="_blank" rel="noopener">https://www.lodashjs.com/</a></td><td>是一个一致性、模块化、高性能的 JavaScript 实用工具库。</td></tr><tr><td>moment</td><td><a href="http://momentjs.cn/" target="_blank" rel="noopener">http://momentjs.cn/</a></td><td>JavaScript 日期处理类库</td></tr></tbody></table><h2 id="前端框架"><a class="markdownIt-Anchor" href="#前端框架"></a> 前端框架</h2><h3 id="vue-mobile-ui"><a class="markdownIt-Anchor" href="#vue-mobile-ui"></a> Vue Mobile UI</h3><table><thead><tr><th>名称</th><th>链接</th><th>介绍</th></tr></thead><tbody><tr><td>Muse UI</td><td><a href="https://muse-ui.org/#/zh-CN" target="_blank" rel="noopener">https://muse-ui.org/#/zh-CN</a></td><td>属性、参数较多，不简洁。样式风格为 Material Design。</td></tr><tr><td>Mand Mobile</td><td><a href="https://didi.github.io/mand-mobile/#/zh-CN/home" target="_blank" rel="noopener">https://didi.github.io/mand-mobile/#/zh-CN/home</a></td><td>是面向金融场景设计的移动端组件库。</td></tr><tr><td>Vant</td><td><a href="https://youzan.github.io/vant/#/zh-CN/intro" target="_blank" rel="noopener">https://youzan.github.io/vant/#/zh-CN/intro</a></td><td>样式较好，组件偏商城。但没有内置表单验证。</td></tr><tr><td>Vux</td><td><a href="https://vux.li" target="_blank" rel="noopener">https://vux.li</a></td><td>一个凑合的 Vue.js 移动端 UI 组件库。</td></tr><tr><td>Mint UI</td><td><a href="http://mint-ui.github.io" target="_blank" rel="noopener">http://mint-ui.github.io</a></td><td>基于 Vue.js 的移动端组件库。</td></tr></tbody></table><h3 id="vue-pc-ui"><a class="markdownIt-Anchor" href="#vue-pc-ui"></a> Vue PC UI</h3><table><thead><tr><th>名称</th><th>链接</th><th>介绍</th></tr></thead><tbody><tr><td>Element</td><td><a href="https://element.eleme.cn/2.0" target="_blank" rel="noopener">https://element.eleme.cn/2.0</a></td><td>Element，一套为开发者、设计师和产品经理准备的基于 Vue 2.0 的桌面端组件库。</td></tr><tr><td>iView</td><td><a href="https://www.iviewui.com" target="_blank" rel="noopener">https://www.iviewui.com</a></td><td>一套基于 Vue.js 的高质量 UI 组件库。</td></tr><tr><td>Quasar</td><td><a href="http://www.quasarchs.com" target="_blank" rel="noopener">http://www.quasarchs.com</a></td><td>基于 Vue 的 Quasar Framework 介绍 这个框架 UI 组件很全面。</td></tr><tr><td>Bootstrap Vue</td><td><a href="https://bootstrap-vue.js.org" target="_blank" rel="noopener">https://bootstrap-vue.js.org</a></td><td>Bootstrap Vue 版</td></tr><tr><td>Vue Material</td><td><a href="http://vuematerial.materializecss.cn" target="_blank" rel="noopener">http://vuematerial.materializecss.cn</a></td><td>Vue Material 是一个轻量级的框架， 建立在谷歌的  Material Design  基础上。</td></tr></tbody></table><h3 id="vue-tools"><a class="markdownIt-Anchor" href="#vue-tools"></a> Vue Tools</h3><table><thead><tr><th>名称</th><th>链接</th><th>介绍</th></tr></thead><tbody><tr><td>v-charts</td><td><a href="https://v-charts.js.org" target="_blank" rel="noopener">https://v-charts.js.org</a></td><td>基于 Vue2.0 和 echarts 封装的 v-charts 图表组件。</td></tr><tr><td>Vue Baidu Map</td><td><a href="https://dafrok.github.io/vue-baidu-map/#/zh/start/installation" target="_blank" rel="noopener">https://dafrok.github.io/vue-baidu-map/#/zh/start/installation</a></td><td>Baidu Map Vue</td></tr></tbody></table><h2 id="nodejs-工具"><a class="markdownIt-Anchor" href="#nodejs-工具"></a> NodeJS 工具</h2><h3 id="xmysql"><a class="markdownIt-Anchor" href="#xmysql"></a> <a href="https://github.com/o1lab/xmysql" target="_blank" rel="noopener">xmysql</a></h3><blockquote><p>为任何 MySQL 生成 API。</p></blockquote><h4 id="安装"><a class="markdownIt-Anchor" href="#安装"></a> 安装</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install xmysql -g</span><br></pre></td></tr></table></figure><h4 id="使用"><a class="markdownIt-Anchor" href="#使用"></a> 使用</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">xmysql -h localhost -u mysqlUser -p mysqlPassword -d databaseName</span><br><span class="line">example:</span><br><span class="line">xmysql -h 127.0.0.1 -u root -p root -d users</span><br></pre></td></tr></table></figure><blockquote><p>最后打开 <code>http://localhost:3000</code></p></blockquote><h2 id="atom-插件"><a class="markdownIt-Anchor" href="#atom-插件"></a> Atom 插件</h2><p>插件</p><table><thead><tr><th>插件名</th><th>用途</th></tr></thead><tbody><tr><td>autocomplete-clang</td><td>代码补全</td></tr><tr><td>Atom-beautify</td><td>代码美化</td></tr><tr><td><a href="https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/" target="_blank" rel="noopener">markdown-preview-enhanced</a></td><td>滚动跟随+流程图</td></tr></tbody></table><h2 id="数据库设计工具"><a class="markdownIt-Anchor" href="#数据库设计工具"></a> 数据库设计工具</h2><ol><li>PowerDesigner</li></ol>]]></content>
     
     <summary type="html">
     
@@ -175,33 +175,6 @@
   </entry>
   
   <entry>
-    <title>Android 无线调试</title>
-    <link href="http://yanyuku.github.io/2019/09/11/language/mobile/android/wifi_adb/"/>
-    <id>http://yanyuku.github.io/2019/09/11/language/mobile/android/wifi_adb/</id>
-    <published>2019-09-10T16:00:00.000Z</published>
-    <updated>2020-01-22T01:36:36.779Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="语法"><a class="markdownIt-Anchor" href="#语法"></a> 语法</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">adb connect [ip]:[port]</span><br></pre></td></tr></table></figure><h3 id="example"><a class="markdownIt-Anchor" href="#example"></a> example</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">adb connect 192.168.0.101:5555</span><br></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h3 id=&quot;语法&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#语法&quot;&gt;&lt;/a&gt; 语法&lt;/h3&gt;
-&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span cla
-      
-    
-    </summary>
-    
-    
-      <category term="编程" scheme="http://yanyuku.github.io/categories/%E7%BC%96%E7%A8%8B/"/>
-    
-    
-      <category term="Android" scheme="http://yanyuku.github.io/tags/Android/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Batch（.bat 批处理）</title>
     <link href="http://yanyuku.github.io/2019/09/11/language/script/batch/first/"/>
     <id>http://yanyuku.github.io/2019/09/11/language/script/batch/first/</id>
@@ -228,6 +201,33 @@
     
     
       <category term="Batch" scheme="http://yanyuku.github.io/tags/Batch/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Android 无线调试</title>
+    <link href="http://yanyuku.github.io/2019/09/11/language/mobile/android/wifi_adb/"/>
+    <id>http://yanyuku.github.io/2019/09/11/language/mobile/android/wifi_adb/</id>
+    <published>2019-09-10T16:00:00.000Z</published>
+    <updated>2020-01-22T01:36:36.779Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="语法"><a class="markdownIt-Anchor" href="#语法"></a> 语法</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">adb connect [ip]:[port]</span><br></pre></td></tr></table></figure><h3 id="example"><a class="markdownIt-Anchor" href="#example"></a> example</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">adb connect 192.168.0.101:5555</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;语法&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#语法&quot;&gt;&lt;/a&gt; 语法&lt;/h3&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span cla
+      
+    
+    </summary>
+    
+    
+      <category term="编程" scheme="http://yanyuku.github.io/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    
+      <category term="Android" scheme="http://yanyuku.github.io/tags/Android/"/>
     
   </entry>
   
